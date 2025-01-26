@@ -14,7 +14,7 @@ class AppInfoDao @Inject constructor(
 ) {
 
     fun getVersionName(): String {
-        return getPackageInfo().versionName
+        return getPackageInfo().versionName ?: ""
     }
 
     fun getVersionCode(): Long {
