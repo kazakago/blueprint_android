@@ -14,7 +14,7 @@ dagger = "2.55"
 
 [libraries]
 # Kotlinx Serialization Core
-kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.8.0"
+kotlinx-serialization-core = "org.jetbrains.kotlinx:kotlinx-serialization-core:1.11.0"
 # AndroidX Compose BOM
 androidx-compose-bom = "androidx.compose:compose-bom:2025.01.00" # https://developer.android.com/jetpack/compose/bom/bom-mapping
 # AndroidX Compose Preview support
